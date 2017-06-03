@@ -1,0 +1,23 @@
+/*分享模块 & 下载模块*/
+.paf_share_module, .paf_download_module { position: absolute; width: 100%; height: 45px; left: 0; top: 100px; padding: 0 15px; z-index: 10; }
+.paf_share_module a, .paf_download_module a { display: block; width: 100%; height: 100%; z-index: 10; }
+
+/*图片模块*/
+.paf_img_module, .paf_img_module .img_part, .paf_img_module .img_part img { margin: 0; padding: 0; width: 100%; display: block; overflow: hidden; }
+.paf_img_module { position: relative; top: 0; left: 0; overflow: hidden; }
+
+/*二维码模块*/
+.paf_qrcode_module { position: absolute; overflow: hidden; }
+.paf_qrcode_module img { width: 100%; height: 100%; }
+
+/*标签页*/
+.tab { display: block; float: left; width: 33.33%;box-sizing:border-box; text-align: center; margin: 0; padding: 0; border-top: solid 1px  #008AF5; border-bottom: solid 1px  #008AF5; border-right: solid 1px  #008AF5; background-color: white; margin-top: 10px; }
+.tab:hover,.tab:active,.tab.active{ background-color: #008AF5; color: white; }
+
+.tabHome { height: 40px; line-height: 40px; border-left: solid 1px  #008AF5; }
+.info { padding-bottom: 10px; background-color: white; }
+.renxing, .yinpiao, .huiying, .lingqu, .shiyong, .yingli, .qianbao { font-size: 14px; width: 90%; margin: 0 auto; margin-top: 20px; background-color: #f2f2f2; border-radius: 5px; padding: 10px 5px; font-size: 12px; }
+.message0 li { list-style: none; float: left; font-size: 12px; width: 50%; white-space: nowrap; line-height: 20px; }
+.centent p { font-weight: 80; font-size: 14px; }
+.message0 li::before { content: "·"; }
+.message1, .message2 { display: none; }

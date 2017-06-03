@@ -1,0 +1,85 @@
+/* common styles */
+html, body, div, p, ul, li, a, span,img{ margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; }
+html { -webkit-text-size-adjust:none; }
+body { line-height:1; font-family:"microsoft yahei";}
+.clearfix{zoom:1; display:block;}
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:"";clear:both;height:0;}
+a { text-decoration:none; cursor:pointer; display:block;}
+img { display:block; width:100%; vertical-align:middle; border:none;}
+span{display:block;}
+.hidden{display:none;}
+li { list-style:none;}
+
+
+
+
+ul li {
+    float: left;
+}
+
+.main{
+    width: 7.5rem;
+}
+
+.box {
+    position: relative;
+    padding-bottom: 1.18rem;
+    /* background: url(../images/bg.jpg) repeat; */
+    background-color: #ad2120;
+}
+
+
+
+.miaosha {
+	margin-top: .2rem;
+	position: relative;
+}
+#msList {
+    width: 5.7rem;
+    margin: 0 auto;
+}
+#msList li {
+	 width: 2.48rem;
+	position: relative;
+}
+#msList li:nth-child(2n+1) {
+	margin-right: .74rem;
+}
+#msList .ms-logo {
+	position: absolute;
+	top: -.2rem;
+	right: -.2rem;
+	width: .82rem;
+	height: .81rem;
+}
+.button {
+	position: absolute;
+	bottom: -.24rem;
+	left: 50%;
+	margin-left: -.76rem;
+	width: 1.49rem;
+	height: .46rem;
+	border-radius: .1rem;
+	background: url(../images/button.jpg);
+	background-size: contain;
+}
+
+
+.giftList {
+	width: 7.1rem;
+	margin: 0 auto;
+	margin-bottom: .74rem;
+}
+.giftList li {
+	width: 2.35rem;
+	margin-right: .02rem;
+	margin-bottom: .1rem;
+}
+.giftList .clearMargin {
+	margin-right: 0;
+}
+
+.rulesText {
+	width: 7.1rem;
+	margin: 0 auto;
+}

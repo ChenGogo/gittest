@@ -1,0 +1,118 @@
+﻿.rDialog { width:100%;position: fixed; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.rDialog-mask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/*.rDialog-header{
+	width: 4.5rem;
+	padding: .36rem .5rem;
+	margin:2rem auto 0;
+	background-color: #e9314b;
+	border-radius: 5px;
+	text-align: center;
+    color: #fff;
+}
+.rDialog-footer{
+	margin: 1rem auto;
+}
+.triangle{
+	width: 0;
+	height: 0;
+	border-width: .25rem;
+	margin: 0 auto;
+	border-style: solid;
+	border-color: #e9314b transparent transparent;
+}
+.prizeContainer {
+	width: 3rem;
+	height: 3rem;
+	position: relative;
+	margin: .2rem auto;
+}
+
+.rDialog-prize{
+	width: 100%;
+	display: block;
+	position: absolute;
+}
+.rDialog-ok{
+	width: 35%;
+	padding: .25rem .1rem;
+	border-radius: 50px;
+	background-color: #e9314b;
+	color: #fff;
+	display: block;
+	text-align: center;
+	margin: .2rem auto .8rem;
+}
+.operate{
+	width: 6rem;
+	height: 2rem;
+	display: block;
+	margin: .3rem auto;
+}*/
+.rDialog-ok::before,
+.rDialog-ok::after{
+/*  content: "";
+  position: absolute;*/  /*方便进行定位*/
+/*  height: 16px;
+  width: 1.5px;
+  top: 2px;
+  right: 9px; */ /*设置top和right使图像在20*20框中居中*/
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 1.5px;
+  top: 0px;
+  right: 14px;
+  background-color: #ffffff;
+}
+.rDialog-ok::before{
+  transform: rotate(45deg);  /*进行旋转*/
+  -ms-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+.rDialog-ok::after{
+  transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+}
+.rDialog-ok{
+  width: 30px;
+  height: 30px;
+  position: absolute;  /*方便相对于父元素进行定位*/
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  right: 0px;
+  top: 0px;
+}
+.rDialog-content{
+	width: 4rem;
+	height: 4rem;
+	margin: 2.5rem auto 0;
+	background-image: url(../app/images/rDialog_img.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: relative;
+	padding-top: 1.2rem;
+}
+.rDialog-prize{
+	width: 3.3rem;
+	display: block;
+	margin:-.3rem auto;
+}
+.rDialog-brief{
+	color: #ffffff;
+	font-size: .35rem;
+	text-align:center;
+}

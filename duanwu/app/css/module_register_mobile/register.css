@@ -1,0 +1,20 @@
+﻿/*手机端注册模块*/
+.paf_register_module { position: relative; width: 100%;background-color: #e9314b }
+#otpControl { background: #fff; border-bottom: solid 1px #e5e5e5; border-top: solid 1px #e5e5e5; }
+.form-inline { border-bottom: solid 1px #e5e5e5; margin: 0 15px; height: 44px; background: #fff; line-height: 44px; position: relative; font-size: 17px; color: #333; }
+.form-inline:last-child { border-bottom: none; }
+.form-label { height: inherit; line-height: inherit; }
+.form-input { font-size: 14px; }
+.form-input,.valCode { width: 65%; }
+.form-img { position: absolute; right: 0; width: 80px; height: 35px; top: 5px; }
+.ui-container { margin: 0 15px; text-align: center;}
+.ui-row { display: block; margin-top: 7px; margin-bottom: 12px; font-size: 10px; }
+.ui-row a { font-size: 10px; outline: 0; text-decoration: none; color: #0087e3; }
+.ui-btn { position: absolute; right: 0; cursor: pointer; top: 10px; font-size: 15px; width: 50px; height: 26px; border: none; border-radius: 4px; line-height: 25px; text-align: center; color: #0087e3; }
+.ui-btn:disabled { background: #ccc; color: #333; }
+.hidden { display: none; }
+
+/*微信 & uc & QQ 浏览器*/
+#mobile-input {
+	color: #333;
+}
